@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Enter a Number</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div> 
+        <h1>Assignment 3</h1>
+        <div> 
+            <h2>1. String Reverser</h2>
+            <input type="text" id="userInputString" placeholder="Enter any word.">
+            <button onclick="reverseMyString()">Reverse</button>
+            <p>Output: <span id="reverseDisplay"></span></p>
+        </div>
+        <hr>
+        <div class="input-section">
+            <h3>2.Check Palindrome</h3>
+            <input type="text" id="palindromeInput" placeholder="Enter any number.">
+            <button onclick="checkPalindrome()">Check</button>
+            <p>Result: <span id="palindromeDisplay"></span></p>
+        </div>    
+        <hr>
+        <div class="input-section">
+            <h4>3. Tip Calculator</h4>
+            <input type="number" id="billAmount" placeholder="Bill Subtotal ($)">
+            <input type="number" id="tipRate" placeholder="Tip Percentage (%)">
+            <button onclick="calculateTotalBill()">Calculate</button>
+        </div>
+        <p>Total: <span id="billDisplay"></span></p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
